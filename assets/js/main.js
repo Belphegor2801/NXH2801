@@ -155,9 +155,9 @@
   }
 
   /**
-   * Testimonials slider
+   * SkillDetails slider
    */
-  new Swiper('.testimonials-slider', {
+  new Swiper('.SkillDetails-slider', {
     speed: 600,
     loop: true,
     autoplay: {
