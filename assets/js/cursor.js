@@ -3,7 +3,7 @@ var cursor = {
     _x: 0,
     _y: 0,
     endX: (window.innerWidth / 2),
-    endY: (window.innerHeight / 2),
+    endY: (window.innerHeight / 4),
     cursorVisible: true,
     cursorEnlarged: false,
     $dot: document.querySelector('.cursor-dot'),
