@@ -63,6 +63,7 @@ body::before {
     height: 65px;
     opacity: 0.5;
     z-index: 9999;
+    top: 200px;
 }
 
 .cursor-img{
