@@ -351,7 +351,19 @@ section.section-show {
   top: 100px;
   bottom: auto;
   opacity: 1;
-  padding-bottom: 45px;
+  padding-bottom: 150px;
+}
+
+@media (max-width: 992px){
+  section.section-show {
+    padding-bottom: 120px;
+  }
+}
+
+@media (max-width: 768px){
+  section.section-show {
+    padding-bottom: 90px;
+  }
 }
 
 section .container {
@@ -1193,13 +1205,13 @@ section .container {
   max-width: 600px;
 }
 
-@media (max-width: 900px){
+@media (max-width: 992px){
   .credits-img{
     max-width: 450px;
   }
 }
 
-@media (max-width: 660px){
+@media (max-width: 768px){
   .credits-img{
     max-width: 300px;
   }
