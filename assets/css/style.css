@@ -27,6 +27,9 @@ body::before {
   top: 0;
   height: 100vh;
   z-index: -1;
+  animation-name: bg;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
 @media (min-width: 1024px) {
@@ -351,18 +354,18 @@ section.section-show {
   top: 100px;
   bottom: auto;
   opacity: 1;
-  padding-bottom: 150px;
+  padding-bottom: 140px;
 }
 
 @media (max-width: 992px){
   section.section-show {
-    padding-bottom: 120px;
+    padding-bottom: 100px;
   }
 }
 
 @media (max-width: 768px){
   section.section-show {
-    padding-bottom: 90px;
+    padding-bottom: 75px;
   }
 }
 
