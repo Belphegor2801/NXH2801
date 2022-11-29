@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg2.jpg") top right no-repeat;
+  background: #040404 url("../img/bg5.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -36,6 +36,39 @@ body::before {
   body::before {
     background-attachment: fixed;
   }
+}
+
+.cursor-dot,
+.cursor-dot-outline {
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    opacity: 0.7;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out,
+                transform 0.3s ease-in-out;
+}
+
+.cursor-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #00eeff;
+    z-index: 9999;
+}
+
+.cursor-dot-outline {
+    width: 65px;
+    height: 65px;
+    opacity: 0.5;
+    z-index: 9999;
+}
+
+.cursor-img{
+  width: 65px;
+  height: 65px;
+  opacity: 0.8;
 }
 
 a {
