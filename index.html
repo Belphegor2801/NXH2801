@@ -24,7 +24,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/bg-shooting-star.css" rel="stylesheet">
+  <link href="assets/css/solar_system.css" rel="stylesheet">
 </head>
 
 <body>
@@ -464,28 +464,28 @@
           <div class="progress">
             <span class="skill">C# <i class="val">100%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
           <div class="progress">
             <span class="skill">Dotnet <i class="val">100%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
           <div class="progress">
             <span class="skill">Java <i class="val">90%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
           <div class="progress">
             <span class="skill">Html/CSS <i class="val">80%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
@@ -503,21 +503,21 @@
           <div class="progress">
             <span class="skill">SQL Server/My SQL <i class="val">90%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
           <div class="progress">
             <span class="skill">English <i class="val">70%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
 
           <div class="progress">
             <span class="skill">Design <i class="val">75%</i></span>
             <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
         </div>
@@ -731,63 +731,137 @@
   <!-- ======= Services Section ======= -->
   <section id="services" class="services">
     <div class="container">
-
       <div class="section-title">
         <h2>Services</h2>
         <p>My Services</p>
       </div>
 
-      <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch" style="border-radius: 50%;">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4><a href="">Web API</a></h4>
-            <p>REST API Asp.net Core with Entity Framework Core 6</p>
+      <div class="opening view-2D zoom-large">
+        <div id="data">
+          <a class="mercury" title="mercury" href="#mercuryspeed">Mercury</a>
+          <a class="venus" title="venus" href="#venusspeed">Venus</a>
+          <a class="earth active" title="earth" href="#earthspeed">Earth</a>
+          <a class="mars" title="mars" href="#marsspeed">Mars</a>
+          <a class="jupiter" title="jupiter" href="#jupiterspeed">Jupiter</a>
+          <a class="saturn" title="saturn" href="#saturnspeed">Saturn</a>
+          <a class="uranus" title="uranus" href="#uranusspeed">Uranus</a>
+          <a class="neptune" title="neptune" href="#neptunespeed">Neptune</a>
+        </div>
+        <div id="controls" style="margin-top: 200px;">
+          <label class="set-view">
+            <input type="checkbox">
+          </label>
+          <label class="set-zoom">
+            <input type="checkbox">
+          </label>
+        </div>
+        <div id="universe" class="scale-stretched">
+          <div id="galaxy">
+            <div id="solar-system" class="earth">
+              <div id="mercury" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Backend</dt>
+                      <dd><span></span></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="venus" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Websites</dt>
+                      <dd><span></span></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="earth" class="orbit">
+                <div class="pos">
+                  <div class="orbit">
+                    <div class="pos">
+                      <div class="moon"></div>
+                    </div>
+                  </div>
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Web Applications</dt>
+                      <dd><span></span></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="mars" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Simulation Softwares</dt>
+                      <dd><span></span></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="jupiter" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Games</dt>
+                      <dd><span></span></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="saturn" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <div class="ring"></div>
+                    <dl class="infos">
+                      <dt>Testing</dt>
+                      <dd><span></span></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="uranus" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Database Management</dt>
+                      <dd><span></span></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="neptune" class="orbit">
+                <div class="pos">
+                  <div class="planet">
+                    <dl class="infos">
+                      <dt>Analysis & Designing</dt>
+                      <dd><span></span></dd>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+              <div id="sun">
+                <dl class="infos">
+                  <dt>Sun</dt>
+                  <dd><span></span></dd>
+                </dl>
+              </div>
+            </div>
           </div>
         </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-world"></i></div>
-            <h4><a href="">Website</a></h4>
-            <p>Beautiful Website (Blog, Personal Web Page, Portfolio Website, Landing Page,...) with Html, Css and ReactJS</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-link"></i></div>
-            <h4><a href="">Web Applications</a></h4>
-            <p>Web System built in Asp.net Core MVC and EF Framework Core</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-mobile"></i></div>
-            <h4><a href="">Mobile Applications</a></h4>
-            <p>Cross-platform applications using Dart and Flutter</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-share-alt"></i></div>
-            <h4><a href="">Simulation Softwares</a></h4>
-            <p>Mathematics, physical, algorithms, mechanic simulation softwares with WDF C#, Python or Java</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-          <div class="icon-box">
-            <div class="icon"><i class="bx bx-game"></i></div>
-            <h4><a href="">Games</a></h4>
-            <p>Casual, puzzle, trivia, text adventures, visual novels games with C#, Python Pygame or Java</p>
-          </div>
-        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script type="text/javascript">
+        if (typeof jQuery == 'undefined') { 
+          document.write(unescape("%3Cscript src='js/jquery.min.js' type='text/javascript'%3E%3C/script%3E"));
+        }
+        </script>
+        <script src="js/prefixfree.min.js"></script>
+        <script src="js/scripts.min.js"></script>
       </div>
-
-    </div>
   </section><!-- End Services Section -->
 
   <!-- ======= Portfolio Section ======= -->
@@ -973,7 +1047,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="assets/js/cursor.js"></script>
-  <script src="assets/js/drifter_stars.js"></script>
+  <script src="assets/js/solar_system.js"></script>
 
 </body>
 
