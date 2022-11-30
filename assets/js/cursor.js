@@ -1,7 +1,7 @@
 var cursor = {
     delay: 8,
-    _x: 0,
-    _y: 0,
+    _x: (window.innerWidth / 2),
+    _y: (window.innerHeight / 4),
     endX: (window.innerWidth / 2),
     endY: (window.innerHeight / 4),
     cursorVisible: true,

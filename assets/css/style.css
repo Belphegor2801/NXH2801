@@ -8,7 +8,6 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #040404;
@@ -1276,7 +1275,6 @@ section .container {
   color: #fff;
   z-index: 1;
 }
-
 
 .credits-img{
   max-width: 600px;
