@@ -743,6 +743,47 @@ section .container {
   transition: all ease-in-out 0.3s;
 }
 
+.services .bg1{
+  background: url("../img/planet1.jpg") !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.services .bg2{
+  background: url("../img/planet2.jpg") !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+.services .bg3{
+  background: url("../img/planet3.jpg") !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+.services .bg4{
+  background: url("../img/planet4.jpg") !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+.services .bg5{
+  background: url("../img/planet5.jpg") !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+.services .bg6{
+  background: url("../img/planet6.jpg") !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.services .bg1:hover,
+.services .bg2:hover,
+.services .bg3:hover,
+.services .bg4:hover,
+.services .bg5:hover,
+.services .bg6:hover{
+  transform: scale(1.1);
+}
+
 .services .icon-box .icon {
   margin: 0 auto;
   width: 64px;
