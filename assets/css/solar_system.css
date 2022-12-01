@@ -1140,7 +1140,6 @@ dl.infos dd span:after {
   z-index: 99;
   position: fixed;
   opacity: 1;
-  top: 49px;
   width: 100% !important;
   padding: 16px; }
 
@@ -1232,18 +1231,20 @@ dl.infos dd span:after {
   z-index: 99; }
 
 #controls label.set-view:before {
-  font: bold small-caps 11px/20px sans-serif; }
+  font: bold small-caps 14px/20px sans-serif; }
 
 .view-2D #controls label.set-view:before {
   content: '2D';
-  margin-left: 77px; }
+  margin-left: 77px; 
+  margin-top: 1px;}
 
 .view-3D #controls label.set-view:before {
   content: '3D';
-  margin-left: 5px; }
+  margin-left: 5px; 
+  margin-top: 1px;}
 
 .view-2D #controls .set-view input:after {
-  margin-left: 0px; 
+  margin-left: 2px; 
   margin-top: -2px; }
 
 .view-3D #controls .set-view input:after {
@@ -1254,14 +1255,15 @@ dl.infos dd span:after {
 
 .zoom-large #controls label.set-zoom:before {
   content: '+';
-  margin-left: 77px; }
+  margin-left: 77px; 
+  margin-top: 4px;}
 
 .zoom-close #controls label.set-zoom:before {
   content: '-';
   margin-left: 5px; }
 
 .zoom-large #controls .set-zoom input:after {
-  margin-left: 0px; 
+  margin-left: 2px; 
   margin-top: -2px; }
 
 .zoom-close #controls .set-zoom input:after {
