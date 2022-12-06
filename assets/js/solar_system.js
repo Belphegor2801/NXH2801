@@ -13,7 +13,7 @@ $(window).load(function(){
   
     var setView = function(view) { universe.removeClass().addClass(view); };
   
-    $("#data a").click(function(e) {
+    $("#data a").hover(function(e) {
       var ref = $(this).attr("class");
       solarsys.removeClass().addClass(ref);
       $(this).parent().find('a').removeClass('active');
