@@ -23,16 +23,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Personal - v4.9.1
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -42,35 +36,42 @@
     <!-- ======= Portfolio Details ======= -->
     <div id="portfolio-details" class="portfolio-details">
       <div class="container">
-
         <div class="row">
+          <div>
+            <h2 class="portfolio-title">Math/Physic/Biology Simulator</h2>
 
-          <div class="col-lg-8">
-            <h2 class="portfolio-title">Puzzle Game: Slide Puzzle</h2>
-
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-4/portfolio-4-details-1.jpg" alt="">
-                </div>
-
+            <div class="portfolio-wrapper" style="text-align: center;">
+              <i id="left" class="fa fa-angle-left"></i>
+              <div class="carousel">
+                <img src="assets/img/portfolio/portfolio-4/portfolio-4-details-1.jpg" alt="img" draggable="false">
+                <img src="assets/img/portfolio/portfolio-4/portfolio-4-details-2.jpg" alt="img" draggable="false">
+                <img src="assets/img/portfolio/portfolio-4/portfolio-4-details-3.jpg" alt="img" draggable="false">
+                <img src="assets/img/portfolio/portfolio-4/portfolio-4-details-4.jpg" alt="img" draggable="false">
+                <img src="assets/img/portfolio/portfolio-4/portfolio-4-details-5.jpg" alt="img" draggable="false">
               </div>
-              <div class="swiper-pagination"></div>
+              <i id="right" class="fa fa-angle-right"></i>
+            </div>
+            <div>
+              <div style="text-align:center; margin-top: 15px;">
+                <span class="dot dot-active" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+              </div>
             </div>
 
           </div>
-
-          <div class="col-lg-4 portfolio-info">
+          <div class="portfolio-info">
             <h3>Project information</h3>
             <ul>
-              <li><strong>Category</strong>: Game</li>
-              <li><strong>Client</strong>: None</li>
-              <li><strong>Project date</strong>: 7 February, 2018</li>
-              <li><strong>Project URL</strong>: <a target="_blank" href="#">None</a></li>
+              <li><strong>Category:</strong>Math/Physic/Biology Simulator</li>
+              <li><strong>Project date</strong>: 2020-2021</li>
+              <li><strong>Project URL</strong>: <a target="_blank" href="#">N/A</a></li>
             </ul>
 
             <p>
-              A Puzzle Game using Pygame.
+              A simulator build with Pygame.
             </p>
           </div>
         </div>
@@ -94,6 +95,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/slide.js"></script>
 
 </body>
 
