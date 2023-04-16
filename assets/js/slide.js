@@ -45,12 +45,12 @@ const portfolio_autoSlide = () => {
     if(carousel.scrollLeft > prevScrollLeft) { // if user is scrolling to the right
         slideIndex += 1;
         portfolio_setSlideIndex();
-        return carousel.scrollLeft += positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
+        return carousel.scrollLeft += positionDiff > firstImgWidth / 5 ? valDifference : -positionDiff;
     }
     // if user is scrolling to the left
     slideIndex -= 1;
     portfolio_setSlideIndex();
-    carousel.scrollLeft -= positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
+    carousel.scrollLeft -= positionDiff > firstImgWidth / 5 ? valDifference : -positionDiff;
 }
 const portfolio_dragStart = (e) => {
     // updatating global variables value on mouse down event
@@ -72,7 +72,7 @@ const portfolio_dragStop = () => {
     carousel.classList.remove("dragging");
     if(!isDragging) return;
     isDragging = false;
-    autoSlide();
+    portfolio_autoSlide();
 }
 carousel.addEventListener("mousedown", portfolio_dragStart);
 carousel.addEventListener("touchstart", portfolio_dragStart);
