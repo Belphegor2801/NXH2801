@@ -593,28 +593,28 @@
   content: '0 km/h'; }
 
 .set-speed #mercury dl.infos dd:after {
-  content: 'Web API: Rest API ASP.NET with EF Core'; }
+  content: 'Data Scraper and Data Crawler tool using Python from many sources: Facebook, Instagram, Shopee, Fahasa, Tiki,...'; }
 
 .set-speed #venus dl.infos dd:after {
-  content: 'Personal websites, Blog, Portfolio, etc.'; }
+  content: 'Make your data clean, visualize them in a way easy to understand; Describe and illustrate, condense and recap, and evaluate your Data.'; }
 
 .set-speed #earth dl.infos dd:after {
-  content: 'Asp.Net MVC with Entity Framework'; }
+  content: 'Training model based on available data to solve practical problem!'; }
 
 .set-speed #mars dl.infos dd:after {
-  content: 'Pygame or Java'; }
+  content: 'Website UI/UX Design with Figma'; }
 
 .set-speed #jupiter dl.infos dd:after {
-  content: 'Mathematics, physical, algorithm, mechanic simulation softwares with Python or C# Wdf'; }
+  content: 'Backend: C# Asp.Net with Entity Framework Frontend: HTML5/CSS3, ReactJS, jQuery, Bootstrap'; }
 
 .set-speed #saturn dl.infos dd:after {
-  content: 'Cross-platform applications using Dart and Flutter'; }
+  content: 'Cross-platform applications using Flutter'; }
 
 .set-speed #uranus dl.infos dd:after {
-  content: 'SQL Server, MySQL'; }
+  content: 'RPG, Puzzle, Idle games, etc in C#, Pygame or Java'; }
 
 .set-speed #neptune dl.infos dd:after {
-  content: 'UI design, System analysis & designing'; }
+  content: 'SQL/NoSQ: SQL Server, MySQL, PostgreSQL, Neo4j'; }
 
 /* --------------------------------------------------------------------------- size */
 .set-size dl.infos dd span:after {
@@ -1047,8 +1047,8 @@ dl.infos dt {
   position: absolute;
   left: 50px;
   margin-bottom: 26px;
-  top: -70px;
-  width: 200px;
+  top: -40px;
+  width: 300px;
   color: #FFF;
   font-size: 14px;
   text-shadow: 1px 1px 2px black; 
@@ -1057,15 +1057,15 @@ dl.infos dt {
 dl.infos dd:after {
   position: absolute;
   left: 50px;
-  top: -45px;
-  width: 300px;
+  top: -15px;
+  width: 330px;
   color: #FFF;
   font-size: 14px;
   text-shadow: 1px 1px 2px black; 
   z-index: 99;}
 
 dl.infos dd span:after {
-  position: absolute;
+  position: relative;
   left: 50px;
   bottom: 14px;
   width: 300px;

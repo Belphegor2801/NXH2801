@@ -457,7 +457,7 @@ h6 {
   top: 15px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .mobile-nav-toggle {
     display: block;
   }
@@ -712,7 +712,7 @@ section .container {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: 75px;
   display: block;
   background: none;
   border-radius: 0;
@@ -741,7 +741,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #0ef;
+  background-color: #0cf;
 }
 
 /*--------------------------------------------------------------
@@ -774,88 +774,7 @@ section .container {
   background: rgba(255, 255, 255, 0.12);
 }
 
-/*--------------------------------------------------------------
-# SkillDetails
---------------------------------------------------------------*/
-.SkillDetails .SkillDetails-carousel,
-.SkillDetails .SkillDetails-slider {
-  overflow: hidden;
-}
-
-.SkillDetails .skillDetail-item {
-  box-sizing: content-box;
-  min-height: 220px;
-}
-
-.SkillDetails .skillDetail-item .skillDetail-img {
-  width: 90px;
-  border-radius: 50%;
-  margin: -40px 0 0 40px;
-  position: relative;
-  z-index: 2;
-  border: 6px solid rgba(255, 255, 255, 0.12);
-}
-
-.SkillDetails .skillDetail-item h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0 5px 45px;
-  color: #fff;
-}
-
-.SkillDetails .skillDetail-item h4 {
-  font-size: 14px;
-  color: #999;
-  margin: 0 0 0 45px;
-}
-
-.SkillDetails .skillDetail-item .quote-icon-left,
-.SkillDetails .skillDetail-item .quote-icon-right {
-  color: rgba(255, 255, 255, 0.25);
-  font-size: 26px;
-}
-
-.SkillDetails .skillDetail-item .quote-icon-left {
-  display: inline-block;
-  left: -5px;
-  position: relative;
-}
-
-.SkillDetails .skillDetail-item .quote-icon-right {
-  display: inline-block;
-  right: -5px;
-  position: relative;
-  top: 10px;
-}
-
-.SkillDetails .skillDetail-item p {
-  font-style: italic;
-  margin: 0 15px 0 15px;
-  padding: 20px 20px 60px 20px;
-  background: rgba(255, 255, 255, 0.1);
-  position: relative;
-  border-radius: 6px;
-  position: relative;
-  z-index: 1;
-}
-
-.SkillDetails .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.SkillDetails .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  opacity: 1;
-  background-color: rgba(255, 255, 255, 0.3);
-}
-
-.SkillDetails .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0ef;
-}
-
-/*--------------------------------------------------------------
+/*--------------------------------------------------------------s
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
@@ -919,10 +838,11 @@ section .container {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
 .services .icon-box {
   text-align: center;
   background: rgba(204, 204, 204, 0.1);
-  padding: 80px 20px;
+  padding: 80px 30px;
   transition: all ease-in-out 0.3s;
 }
 
@@ -1274,7 +1194,7 @@ section .container {
   position: relative;
 }
 
-.dot {
+.portfolio-dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -1285,7 +1205,7 @@ section .container {
   transition: background-color 0.6s ease;
 }
 
-.dot-active {
+.portfolio-dot-active {
   background-color: #00eeff;
 }
 
@@ -1318,7 +1238,7 @@ section .container {
 .portfolio-wrapper i:last-child{
   right: -22px;
 }
-.portfolio-wrapper .carousel{
+.portfolio-wrapper .portfolio-carousel{
   width: 90%; 
   margin-left: 5%;
   font-size: 0px;
@@ -1328,37 +1248,37 @@ section .container {
   scroll-behavior: smooth;
 }
 
-.carousel.dragging{
+.portfolio-carousel.dragging{
   cursor: grab;
   scroll-behavior: auto;
 }
-.carousel.dragging img{
+.portfolio-carousel.dragging img{
   pointer-events: none;
 }
-.carousel img{
+.portfolio-carousel img{
   width: 100%;
   user-select: none;
   margin-left: 14px;
 }
-.carousel img:first-child{
+.portfolio-carousel img:first-child{
   margin-left: 0px;
 }
 
-@media screen and (max-width: 900px) {
-  .portfolio-wrapper .carousel{
+@media screen and (max-width: 992px) {
+  .portfolio-wrapper .portfolio-carousel{
     width: 100% !important; 
     margin-left: 0%;
   }
-  .carousel img{
+  .portfolio-carousel img{
     width: calc(100%);
   }
 }
 
 @media screen and (max-width: 550px) {
-  .portfolio-wrapper .carousel{
+  .portfolio-wrapper .portfolio-carousel{
     width: 100% !important; 
   }
-  .carousel img{
+  .portfolio-carousel img{
     width: 100%;
   }
 
