@@ -614,7 +614,7 @@
   content: 'RPG, Puzzle, Idle games, etc in C#, Pygame or Java'; }
 
 .set-speed #neptune dl.infos dd:after {
-  content: 'SQL/NoSQ: SQL Server, MySQL, PostgreSQL, Neo4j'; }
+  content: 'SQL Server, MySQL, MongoDB, PostgreSQL, Neo4j'; }
 
 /* --------------------------------------------------------------------------- size */
 .set-size dl.infos dd span:after {
